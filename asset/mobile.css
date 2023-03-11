@@ -1,4 +1,8 @@
-@media (max-width: 438px) {
+@media only screen and (max-width: 740px) {
+    main {
+        width: 740px;
+        max-width: 740px;
+    }
     .header-content {
         max-width: 100%;
         height: 43px;
@@ -7,7 +11,7 @@
         justify-content: space-between;
         font-weight: 500;
         font-size: 0.9rem;
-        padding: 0 8px;
+        padding: 0 12px;
     }
     .header-content-phone img,
     .header-content-location img {
@@ -30,7 +34,8 @@
     }
     .hero .hero-logo {
         position: absolute;
-        left: 49px;
+        left: 50%;
+        transform: translate(-50%);
         top: 23px;
         width: 291px;
         height: 249px;
