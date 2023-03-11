@@ -1,0 +1,81 @@
+@media (max-width: 420px) {
+    .header-content {
+        max-width: 100%;
+        height: 43px;
+        display: flex;
+        background-color: #ccc;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 0.9rem;
+        padding: 0 8px;
+    }
+    .header-content-phone img,
+    .header-content-location img {
+        width: 14px;
+        height: 14px;
+        margin-right: 4px;
+    }
+    .listPhone {}
+    .listPhone .phoneNumber {
+        display: inline-block;
+        margin: 2px;
+    }
+    .hero {
+        position: relative;
+    }
+    .hero .hero-background {
+        width: 100%;
+        height: 450px;
+        z-index: -101;
+    }
+    .hero .hero-logo {
+        position: absolute;
+        left: 49px;
+        top: 23px;
+        width: 291px;
+        height: 249px;
+        margin-top: 0px;
+        margin-left: 0px;
+        z-index: 100;
+    }
+    .hero .hero-content {
+        position: absolute;
+        width: 348px;
+        height: 77px;
+        left: 50%;
+        transform: translate(-50%);
+        top: 226px;
+        font-size: 1.6rem;
+    }
+    .wrapper {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 310px;
+    }
+    .cta {
+        display: flex;
+        padding: 6px 10px;
+        text-decoration: none !important;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        color: white !important;
+        background: transparent;
+        border: solid 1px #fff;
+        text-decoration: none;
+        color: #fff;
+        transition: 1s;
+        box-shadow: 3px 3px 0 black;
+        transform: skewX(-15deg);
+    }
+    .cta svg {
+        width: 16px;
+        height: 20px;
+    }
+    span:nth-child(2) {
+        width: 12px;
+        margin-left: 10px;
+        position: relative;
+        top: 12%;
+    }
+}
