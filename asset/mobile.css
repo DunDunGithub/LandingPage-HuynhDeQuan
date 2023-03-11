@@ -10,19 +10,19 @@
         background-color: #ccc;
         justify-content: space-between;
         font-weight: 500;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         padding: 0 12px;
     }
     .header-content-phone img,
     .header-content-location img {
-        width: 14px;
-        height: 14px;
+        width: 18px;
+        height: 18px;
         margin-right: 4px;
     }
     .listPhone {}
     .listPhone .phoneNumber {
         display: inline-block;
-        margin: 2px;
+        margin: 8px;
     }
     .hero {
         position: relative;
@@ -36,21 +36,21 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%);
-        top: 23px;
-        width: 291px;
-        height: 249px;
+        top: -80px;
+        width: 491px;
+        height: 450px;
         margin-top: 0px;
         margin-left: 0px;
         z-index: 100;
     }
     .hero .hero-content {
         position: absolute;
-        width: 348px;
+        width: 548px;
         height: 77px;
         left: 50%;
         transform: translate(-50%);
         top: 226px;
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     .wrapper {
         position: absolute;
@@ -82,5 +82,188 @@
         margin-left: 10px;
         position: relative;
         top: 12%;
+    }
+    /* Giới thiệu chung */
+    .introduction {
+        padding: 30px 20px;
+        height: 960px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .introduction-content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .introduction-content .content-desc {
+        font-size: 2rem;
+        text-align: center;
+        text-justify: inter-word;
+        margin-bottom: 20px;
+    }
+    .introduction-content .content-title {
+        text-align: center;
+        width: 80%;
+        height: 80px;
+        border: 1px solid #000;
+        font-size: 5rem;
+        font-weight: bold;
+        line-height: 80px;
+        margin-bottom: 30px;
+        font-family: Pattaya;
+    }
+    .introduction-image {
+        /* padding-left: 10px; */
+    }
+    .introduction-image .image-item {
+        /* left: 0; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    /* Không gian quán */
+    .space {
+        height: 700px;
+    }
+    .space .space-content {
+        position: absolute;
+        color: #FFFFFFD4;
+        top: 20%;
+        padding: 0 30px;
+        font-size: 3.1rem;
+        text-align: justify;
+        text-align: center;
+    }
+    .slide {
+        position: absolute;
+        top: 50%;
+    }
+    /* Buffet */
+    .buffet {
+        height: 3700px;
+        background-color: rgba(217, 217, 217, 0.44);
+        text-align: center;
+        padding: 30px 0 0 0;
+        position: relative;
+    }
+    .buffet .buffet-price {
+        position: absolute;
+        width: 600px;
+        top: 150px;
+        left: 50%;
+        font-size: 2.6rem;
+        font-weight: bold;
+        transform: translate(-50%);
+    }
+    .buffet .buffet-price b {
+        color: #F5BA00;
+        font-size: 3.8rem;
+    }
+    .grid-container {
+        position: absolute;
+        top: 280px;
+        margin-top: 10px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    /* Set Món */
+    .set {
+        padding-bottom: 40px;
+    }
+    /* Menu */
+    /* feedback */
+    .feedback {
+        overflow: hidden;
+    }
+    /* Why choose Huynh De Quan */
+    .whychooseus-content {
+        padding: 30px 40px;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+    .whychooseus-wrap {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .whychooseus-item {
+        margin-right: 8px;
+    }
+    .whychooseus-wrap .whychooseus-item:last-child {
+        margin-right: 0;
+    }
+    /* Ưu đãi, khuyến mãi */
+    .promotion {
+        position: relative;
+        height: 1280px;
+        background-image: url(./image/background-uudai.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .promotion-info {
+        top: 120px;
+        width: 500px;
+        max-width: 100%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .promotion-info .old-price {
+        font-size: 3.2rem;
+    }
+    .promotion-info .new-price {
+        font-size: 4rem;
+    }
+    .promotion-info .discount {
+        font-size: 4.4rem;
+    }
+    .promotion-info .promotion-info-content {
+        font-size: 4rem;
+    }
+    .promotion-info .fast-book {
+        font-size: 4.4rem;
+    }
+    .promotion-form {
+        width: 480px;
+        height: 60vh;
+        top: 680px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    /* Footer */
+    .footer-contact {
+        position: relative;
+        width: 100%;
+        left: 0;
+        height: 500px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .footer-contact-title::after {
+        width: 500px;
+    }
+    .footer-contact-detail {
+        padding: 0 60px;
+    }
+    .contact-detail-address,
+    .contact-detail-phone,
+    .contact-detail-time {
+        font-size: 2.0rem;
+    }
+    .footer-thanks {
+        position: relative;
+        right: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 500px;
+        text-align: center;
+        padding-top: 20px;
+        background-image: url(./image/Footer.png);
     }
 }
